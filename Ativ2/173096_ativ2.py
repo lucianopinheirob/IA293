@@ -114,9 +114,23 @@ Base = 29
 A_1 = np.array([[7, 9], [4, 15]])
 A_2 = np.array([[3, 12, 11], [1, 3, 10], [5, 5, 1]])
 
+print("\n")
+print("Chave de Encriptação 1")
+print(A_1)
+print("\n")
+print("Chave de Encriptação 2")
+print(A_2)
+
 # Chave de decifrar
 X_1 = deHill(A_1, Base)
 X_2 = deHill(A_2, Base)
+
+print("\n")
+print("Chave de Decriptação 1")
+print(X_1)
+print("\n")
+print("Chave de Decriptação 2")
+print(X_2)
 
 # Mensagens cifradas com A_1 e A_2
 S_Cifra_A_1 = Cifra_Hill(A_1, S_num, Base)
@@ -144,3 +158,4 @@ print(num_to_text(S_Decifra_A_1)[:Stop_1])
 print("\n")
 print("Mensagem decifrada 2:")
 print(num_to_text(S_Decifra_A_2)[:Stop_2])
+# %%
