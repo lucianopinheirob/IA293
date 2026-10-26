@@ -112,7 +112,7 @@ Base = 29
 
 # Chave de cifrar
 A_1 = np.array([[7, 9], [4, 15]])
-A_2 = np.array([[3, 12, 11], [1, 3, 10], [5, 5, 1]])
+A_2 = np.array([[3, 12, 1], [1, 3, 10], [5, 5, 1]])
 
 print("\n")
 print("Chave de Encriptação 1")
